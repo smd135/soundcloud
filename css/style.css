@@ -1,0 +1,140 @@
+
+@font-face {
+	font-family: Interstate;
+	src: url(../fonts/Interstate-Light.woff2);
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Interstate, sans-serif;
+    font-size: 14px;
+}
+:root {
+
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+img {
+	display: block;
+	
+}
+.container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 1240px;    
+}
+.ma {
+    margin: 0 auto;    
+}
+.tac {
+    text-align: center;
+}
+.tal {
+    text-align: left;
+}
+header {
+    margin: 0 auto;
+    position: fixed;
+    background-color: #333333;
+    max-height: 47px;
+    width: 100%;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    max-height: 47px;
+}
+.left_links {
+	margin: 0;
+	max-height: 47px;
+	max-width: 312px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	
+	}
+.nav_logo {
+	max-width: 174px;
+	height: 46px;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	transition: all .5s;
+}
+
+.nav_logo:hover {
+	background-color: #111111;
+	
+}
+.nav_logo img {
+	
+}
+.nav_logo .link_item {
+	text-align: center;
+	margin: 0 auto;
+}
+.link_item {
+	color: #cccccc;
+	text-align: center;
+	height: 47px;
+	width: 104px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 0;
+	border-right: 1px solid #111;
+	}
+.link_item span {
+	color: #ff5500;
+}	
+.home_link .link_item {
+	
+}
+
+.right_links {
+	margin: 0;
+	max-height: 47px;
+	max-width: 350px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+.search_bar {
+	display: inline-flex;
+	margin-top: 9px;
+	height: 28px;
+	max-width: 388px;
+	
+}
+.search_bar input {
+	height: 28px;
+	max-width: 388px;
+	border-radius: 5px;
+	border: none;
+	background-color: #e5e5e5;
+	color: #666;
+	text-size: 12px;
+	padding-left: 5px;
+}
+.search_bar i {
+	display: inline-flex;
+	align-items: center;
+	transform: translateX(-25px);
+	color: #333;
+	font-size: 18px;
+}
+
